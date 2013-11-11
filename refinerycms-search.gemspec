@@ -14,6 +14,6 @@ Gem::Specification.new do |s|
   s.files             = `git ls-files`.split("\n")
   s.test_files        = `git ls-files -- spec/*`.split("\n")
 
-  s.add_dependency    'refinerycms-core', '~> 2.1.0'
+  s.add_dependency    'refinerycms-core', '~> 3.0.0.dev'
   s.add_dependency    'refinerycms-acts-as-indexed', '~> 1.0.0'
 end
